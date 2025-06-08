@@ -1,0 +1,33 @@
+<div class="about-container">
+  <div class="about-header">
+    <h1>About This App</h1>
+  </div>
+
+  <div class="about-content">
+    <div class="info-card">
+      <h3>Application Info</h3>
+      <div class="info-item">
+        <strong>Name:</strong> {{ appInfo.name }}
+      </div>
+      <div class="info-item">
+        <strong>Version:</strong> {{ appInfo.version }}
+      </div>
+      <div class="info-item">
+        <strong>Description:</strong> {{ appInfo.description }}
+      </div>
+      <div class="info-item">
+        <strong>Author:</strong> {{ appInfo.author }}
+      </div>
+    </div>
+
+    <div class="architecture-info">
+      <h3>Architecture Overview</h3>
+      <ul>
+        <li><strong>Core Module:</strong> Contains singleton services and guards</li>
+        <li><strong>Shared Module:</strong> Reusable components, pipes, and directives</li>
+        <li><strong>Feature Modules:</strong> Business logic organized by features</li>
+        <li><strong>Lazy Loading:</strong> Modules loaded on demand for better performance</li>
+      </ul>
+    </div>
+  </div>
+</div> 

@@ -1,0 +1,17 @@
+<header class="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <h2>Angular Modular App</h2>
+    </div>
+    
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li *ngFor="let item of navItems" class="nav-item">
+          <a [routerLink]="item.path" routerLinkActive="active" class="nav-link">
+            {{ item.label }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header> 
